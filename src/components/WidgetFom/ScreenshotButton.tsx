@@ -31,7 +31,7 @@ export function ScreenshotButton({ screenshot, onScreenshotTook }: ScreenshotBut
           backgroundImage: `url(${screenshot})`,
         }}
       >
-        <Trash width="fill"/>
+        <Trash weight="fill"/>
       </button>
     );
   }
