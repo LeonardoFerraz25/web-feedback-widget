@@ -23,7 +23,7 @@ async function handleSubmitFeedback(e: FormEvent) {
   e.preventDefault();
   setIsSendingFeedback(true);
 
-  await api.post('/feedBacks', {
+  await api.post('/feedbacks', {
     type: feedbackType,
     comment,
     screenshot,
